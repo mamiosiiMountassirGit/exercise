@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Ajouter</title>
+</head>
+<body>
+    <div class="ajt frm ">
+        <h1>Ajoute d'utilisateur</h1>
+        <form action='index.html'>
+            <div class="row">
+              <div class="col-4">
+                  <label for="">Nom</label>
+                <input type="text" class="form-control" id="nom" >
+              </div>
+              <div class="col-4">
+                <label for="">Prénom</label>
+
+                <input type="text" class="form-control" id="prenom" >
+              </div>
+              <div class="col-4">
+                <label for="">Etat</label>
+                <input type="text" class="form-control" id="etat">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="col-4">
+                    <label for="">Nom d'utilisateur</label>
+                  <input type="text" class="form-control" id="username" >
+                </div>
+                <div class="col-4">
+                    <label for="">Date de création</label>
+                    <input type="date" class="form-control" id="datedecreation" >
+                </div>
+              </div>
+              <div class="row ">
+                    <div class="col-10">
+                        <label for="">Matricule</label>
+                        <div class="col-4">
+                            <input type="text" class="form-control"  id="matricule">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" id="add" onclick="addRow(); 
+                        " class="btn btn-warning bt">Enregitrer</button>
+                </div>
+            </div>
+            <script src="users.js"></script>
+          </form>
+    </div>
+</body>
+</html>
